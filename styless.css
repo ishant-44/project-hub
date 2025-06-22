@@ -84,3 +84,43 @@ button:hover {
   display: flex;
   flex-direction: row;
 }
+
+.services {
+  padding: 4rem 2rem;
+  background: #f7f7f7;
+  text-align: center;
+}
+.services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.services p {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.service-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 300px;
+  flex: 1;
+}
+.service-card h3 {
+  color: #4a4a4a;
+  margin-bottom: 1rem;
+}
+.service-card a {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.service-card a:hover {
+  text-decoration: underline;
+}
