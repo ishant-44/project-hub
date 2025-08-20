@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://project-hub-ochre.vercel.app/sitemap.xml
